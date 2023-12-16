@@ -91,9 +91,9 @@ const toggleMobileMenu = () => {
             </div>
 
             <!-- Mobile Menu -->
-            <div v-if="isOpenMenu" class="flex lg:hidden relative ml-8">
+            <div v-if="isOpenMenu" class="flex lg:hidden relative ml-8 z-50">
 
-                <div class="bg-white flex flex-col absolute top-[18px] -left-[52px] w-screen gap-4 shadow-lg p-6 rounded">
+                <div class="bg-white flex flex-col absolute top-[18px] -left-[52px] w-screen gap-4 shadow-lg p-6 rounded z-50">
                     <router-link to="/"
                         :class="$route.name === 'home' ? 'bg-gray-50 p-2 rounded text-gray-800 font-medium text-lg' : 'hover:bg-gray-50 p-2 text-gray-700 hover:text-cyan-700 font-normal text-lg'">
                         Home
