@@ -6,7 +6,7 @@ import SampleProject from '@/assets/SampleProject.png'
 <template>
     <div class="bg-gray-100 py-6 sm:py-8 lg:py-48">
         <div
-            class="mx-auto max-w-screen-xl px-4 py-6 flex flex-wrap lg:flex-nowrap items-center justify-between gap-4 lg:gap-8 mb-5">
+            class="mx-auto max-w-screen-lg px-4 py-6 flex flex-wrap lg:flex-nowrap items-center justify-between gap-4 lg:gap-8 mb-5">
             <div class="flex flex-col gap-2">
                 <h2 class="text-4xl font-bold text-gray-800 lg:text-7xl w-full lg:w-1/2">Featured Projects</h2>
             </div>
@@ -21,7 +21,7 @@ import SampleProject from '@/assets/SampleProject.png'
                 <span>View More Projects</span>
             </router-link>
 
-            <router-link to="/projects" class="flex gap-3 text-base font-medium text-gray-800 block lg:hidden">
+            <router-link to="/projects" class="flex hover:border-b pb-4 border-gray-800 gap-3 text-base font-medium text-gray-800 block lg:hidden">
                 <svg class="w-[20px] h-[20px] text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                     fill="none" viewBox="0 0 18 18">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -32,7 +32,7 @@ import SampleProject from '@/assets/SampleProject.png'
         </div>
 
         <!-- Project Image Gallery -->
-        <section class="mx-auto max-w-screen-xl px-4">
+        <section class="mx-auto max-w-screen-lg px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 xl:gap-8">
                 <!-- Featured Project 1 -->
                 <!-- image - start -->

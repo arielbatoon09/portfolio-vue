@@ -16,7 +16,7 @@ const toggleMobileMenu = () => {
 
 <template>
     <header class="bg-white">
-        <nav class="mx-auto max-w-screen-xl px-4 py-4">
+        <nav class="mx-auto max-w-screen-lg px-4 py-4">
             <div class="flex flex-row items-center justify-between">
                 <router-link to="/" class="flex flex-col">
                     <h1 class="font-bold text-xl">Ariel Batoon</h1>
@@ -25,7 +25,7 @@ const toggleMobileMenu = () => {
 
                 <!-- Desktop Menu -->
                 <div class="hidden lg:block">
-                    <ul class="flex flex-row gap-12">
+                    <ul class="flex flex-row gap-8">
                         <li
                             :class="$route.name === 'home' ? 'text-gray-800 font-medium text-lg border-gray-800' : 'text-gray-700 hover:text-gray-800 font-normal text-lg'">
                             <router-link to="/">Home <span v-show="$route.name === 'home'">↓</span></router-link>
@@ -37,6 +37,10 @@ const toggleMobileMenu = () => {
                         <li
                             :class="$route.name === 'projects' ? 'text-gray-800 font-medium text-lg' : 'text-gray-700 hover:text-gray-800 font-normal text-lg'">
                             <router-link to="/projects">Projects <span v-show="$route.name === 'projects'">↓</span></router-link>
+                        </li>
+                        <li
+                            :class="$route.name === 'experience' ? 'text-gray-800 font-medium text-lg' : 'text-gray-700 hover:text-gray-800 font-normal text-lg'">
+                            <router-link to="/experience">Experience <span v-show="$route.name === 'experience'">↓</span></router-link>
                         </li>
                         <li
                             :class="$route.name === 'contact' ? 'text-gray-800 font-medium text-lg' : 'text-gray-700 hover:text-gray-800 font-normal text-lg'">
@@ -91,19 +95,19 @@ const toggleMobileMenu = () => {
 
                 <div class="bg-white flex flex-col absolute top-[18px] -left-[52px] w-screen gap-4 shadow-lg p-6 rounded">
                     <router-link to="/"
-                        :class="$route.name === 'home' ? 'bg-gray-50 p-2 rounded text-cyan-700 font-medium text-lg' : 'hover:bg-gray-50 p-2 text-gray-700 hover:text-cyan-700 font-normal text-lg'">
+                        :class="$route.name === 'home' ? 'bg-gray-50 p-2 rounded text-gray-800 font-medium text-lg' : 'hover:bg-gray-50 p-2 text-gray-700 hover:text-cyan-700 font-normal text-lg'">
                         Home
                     </router-link>
                     <router-link to="/about"
-                        :class="$route.name === 'about' ? 'bg-gray-50 p-2 rounded text-cyan-700 font-medium text-lg' : 'hover:bg-gray-50 p-2 text-gray-700 hover:text-cyan-700 font-normal text-lg'">
+                        :class="$route.name === 'about' ? 'bg-gray-50 p-2 rounded text-gray-800 font-medium text-lg' : 'hover:bg-gray-50 p-2 text-gray-700 hover:text-cyan-700 font-normal text-lg'">
                         About
                     </router-link>
                     <router-link to="/projects"
-                        :class="$route.name === 'projects' ? 'bg-gray-50 p-2 rounded text-cyan-700 font-medium text-lg' : 'hover:bg-gray-50 p-2 text-gray-700 hover:text-cyan-700 font-normal text-lg'">
+                        :class="$route.name === 'projects' ? 'bg-gray-50 p-2 rounded text-gray-800 font-medium text-lg' : 'hover:bg-gray-50 p-2 text-gray-700 hover:text-cyan-700 font-normal text-lg'">
                         Projects
                     </router-link>
                     <router-link to="/contact"
-                        :class="$route.name === 'contact' ? 'bg-gray-50 p-2 rounded text-cyan-700 font-medium text-lg' : 'hover:bg-gray-50 p-2 text-gray-700 hover:text-cyan-700 font-normal text-lg'">
+                        :class="$route.name === 'contact' ? 'bg-gray-50 p-2 rounded text-gray-800 font-medium text-lg' : 'hover:bg-gray-50 p-2 text-gray-700 hover:text-cyan-700 font-normal text-lg'">
                         Contact
                     </router-link>
 

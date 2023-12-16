@@ -9,7 +9,7 @@ const props = defineProps({
 
 onMounted(() => {
     // Page Title
-    document.title = props.pageTitle + ' - ' + 'My Portfolio';
+    document.title = props.pageTitle + ' - ' + 'Ariel Batoon';
 })
 </script>
 

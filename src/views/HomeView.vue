@@ -4,7 +4,7 @@ import HeroBanner from '@/components/HeroBanner.vue';
 import HomeProjectsGallery from '@/components/HomeProjectsGallery.vue';
 
 // Page Title of Views
-const pageTitle = 'Home'
+const pageTitle = 'Web Developer'
 </script>
 
 <template>
