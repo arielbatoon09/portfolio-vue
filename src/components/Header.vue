@@ -117,6 +117,10 @@ const toggleMobileMenu = () => {
                         :class="$route.name === 'projects' ? 'bg-gray-50 p-2 rounded text-gray-800 font-medium text-lg' : 'hover:bg-gray-50 p-2 text-gray-700 hover:text-cyan-700 font-normal text-lg'">
                         Projects
                     </router-link>
+                    <router-link to="/experience"
+                        :class="$route.name === 'experience' ? 'bg-gray-50 p-2 rounded text-gray-800 font-medium text-lg' : 'hover:bg-gray-50 p-2 text-gray-700 hover:text-cyan-700 font-normal text-lg'">
+                        Experience
+                    </router-link>
                     <router-link to="/contact"
                         :class="$route.name === 'contact' ? 'bg-gray-50 p-2 rounded text-gray-800 font-medium text-lg' : 'hover:bg-gray-50 p-2 text-gray-700 hover:text-cyan-700 font-normal text-lg'">
                         Contact
