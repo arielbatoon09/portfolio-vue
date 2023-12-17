@@ -1,7 +1,21 @@
 <script setup>
+import { ref, onMounted } from 'vue';
 import SampleProject from '@/assets/SampleProject.png'
-</script>
+import { useProjectData } from '@/composables/useProjects';
 
+const { data: projectData } = useProjectData();
+const data = ref(null);
+
+const fetchData = async () => {
+  data.value = projectData.value;
+
+  console.log(data.value)
+};
+
+onMounted(() => {
+  fetchData();
+});
+</script>
 
 <template>
     <div class="bg-gray-100 py-6 sm:py-8 lg:py-48">
@@ -33,64 +47,65 @@ import SampleProject from '@/assets/SampleProject.png'
 
         <!-- Project Image Gallery -->
         <section class="mx-auto max-w-screen-lg px-4">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 xl:gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 xl:gap-8">
                 <!-- Featured Project 1 -->
                 <!-- image - start -->
-                <a href="#"
+                <a href="https://expensetracker-ariel.netlify.app/"
                     class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                    <img :src="SampleProject" loading="lazy" alt="Photo by Minh Pham"
-                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                    <img src="https://drive.google.com/uc?export=view&id=1x9OIYbkSUt2Fg6WV77HdPfiuoJf8na1G" loading="lazy" alt="Photo by Minh Pham"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" 
+                        />
 
                     <div
                         class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                     </div>
 
-                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Project</span>
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">01. Expense Tracker Application</span>
                 </a>
                 <!-- image - end -->
 
                 <!-- Featured Project 2 -->
                 <!-- image - start -->
-                <a href="#"
+                <a href="https://todoapp-ariel.netlify.app/"
                     class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-                    <img :src="SampleProject" loading="lazy" alt="Photo by Magicle"
+                    <img src="https://drive.google.com/uc?export=view&id=1bLogl4BP8ZAfs6Z-qfWA-kWpURQHiUD3" loading="lazy" alt="Photo by Magicle"
                         class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                     <div
                         class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                     </div>
 
-                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Tech</span>
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">02. Simple ToDo Application</span>
                 </a>
                 <!-- image - end -->
 
                 <!-- Featured Project 3 -->
                 <!-- image - start -->
-                <a href="#"
+                <a href="https://westislanddigital.com/"
                     class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-                    <img :src="SampleProject" loading="lazy" alt="Photo by Martin Sanchez"
+                    <img src="https://drive.google.com/uc?export=view&id=1dlE1AFciZjxye6q9BccdpAzeklUTZEPu" loading="lazy" alt="Photo by Martin Sanchez"
                         class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                     <div
                         class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                     </div>
 
-                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Dev</span>
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">03. West Island Digital</span>
                 </a>
                 <!-- image - end -->
 
                 <!-- Featured Project 4 -->
                 <!-- image - start -->
-                <a href="#"
+                <a href="https://solafinance.com.au/"
                     class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                    <img :src="SampleProject" loading="lazy" alt="Photo by Lorenzo Herrera"
+                    <img src="https://drive.google.com/uc?export=view&id=1swr9glf4xoGow5a1FdvXoVhj8T_iqN0X" loading="lazy" alt="Photo by Lorenzo Herrera"
                         class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                     <div
                         class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                     </div>
 
-                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Retro</span>
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">04. Sola Finance</span>
                 </a>
                 <!-- image - end -->
             </div>

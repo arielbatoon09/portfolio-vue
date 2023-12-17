@@ -36,15 +36,18 @@ const toggleMobileMenu = () => {
                         </li>
                         <li
                             :class="$route.name === 'projects' ? 'text-gray-800 font-medium text-lg' : 'text-gray-700 hover:text-gray-800 font-normal text-lg'">
-                            <router-link to="/projects">Projects <span v-show="$route.name === 'projects'">↓</span></router-link>
+                            <router-link to="/projects">Projects <span
+                                    v-show="$route.name === 'projects'">↓</span></router-link>
                         </li>
                         <li
                             :class="$route.name === 'experience' ? 'text-gray-800 font-medium text-lg' : 'text-gray-700 hover:text-gray-800 font-normal text-lg'">
-                            <router-link to="/experience">Experience <span v-show="$route.name === 'experience'">↓</span></router-link>
+                            <router-link to="/experience">Experience <span
+                                    v-show="$route.name === 'experience'">↓</span></router-link>
                         </li>
                         <li
                             :class="$route.name === 'contact' ? 'text-gray-800 font-medium text-lg' : 'text-gray-700 hover:text-gray-800 font-normal text-lg'">
-                            <router-link to="/contact">Contact <span v-show="$route.name === 'contact'">↓</span></router-link>
+                            <router-link to="/contact">Contact <span
+                                    v-show="$route.name === 'contact'">↓</span></router-link>
                         </li>
                     </ul>
                 </div>
@@ -80,12 +83,19 @@ const toggleMobileMenu = () => {
                 </div>
 
                 <!-- Burger Menu -->
-                <div @click="toggleMobileMenu"
-                    class="cursor-pointer block lg:hidden border border-gray-200 bg-gray-100 hover:bg-gray-200 p-2 rounded-full">
+                <div v-if="!isOpenMenu" @click="toggleMobileMenu" class="cursor-pointer block lg:hidden p-2 rounded-full">
                     <svg class="w-[24px] h-[24px] text-gray-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        fill="none" viewBox="0 0 16 12">
+                        fill="none" viewBox="0 0 17 14">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                            d="M1 1h14M1 6h14M1 11h7" />
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </div>
+
+                <div v-else @click="toggleMobileMenu" class="cursor-pointer block lg:hidden p-2 rounded-full">
+                    <svg class="w-[24px] h-[24px] text-gray-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                     </svg>
                 </div>
             </div>
@@ -93,7 +103,8 @@ const toggleMobileMenu = () => {
             <!-- Mobile Menu -->
             <div v-if="isOpenMenu" class="flex lg:hidden relative ml-8 z-50">
 
-                <div class="bg-white flex flex-col absolute top-[18px] -left-[52px] w-screen gap-4 shadow-lg p-6 rounded z-50">
+                <div
+                    class="bg-white flex flex-col absolute top-[18px] -left-[52px] w-screen gap-4 shadow-lg p-6 rounded z-50">
                     <router-link to="/"
                         :class="$route.name === 'home' ? 'bg-gray-50 p-2 rounded text-gray-800 font-medium text-lg' : 'hover:bg-gray-50 p-2 text-gray-700 hover:text-cyan-700 font-normal text-lg'">
                         Home
@@ -141,5 +152,4 @@ const toggleMobileMenu = () => {
                 </div>
             </div>
         </nav>
-    </header>
-</template>
+</header></template>
