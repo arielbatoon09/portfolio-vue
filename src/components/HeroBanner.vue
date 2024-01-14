@@ -20,7 +20,7 @@ import HeroBanner from '@/assets/banner_img.png';
                         Cebu, Philippines.</p>
 
                     <div class="flex flex-col gap-4 sm:flex-row sm:justify-center lg:justify-start">
-                        <a href="https://calendly.com/arielbatoon/consultation" class="flex items-center justify-center gap-3 items-center rounded-lg bg-gray-900 hover:bg-gray-800 px-8 py-4 
+                        <a href="https://calendly.com/arielbatoon/consultation" class="flex items-center justify-center gap-3 whitespace-nowrap items-center rounded-lg bg-gray-900 hover:bg-gray-800 px-8 py-4 
                     text-center text-base font-semibold text-white outline-none transition duration-100">
                             <svg class="w-[20px] h-[20px] text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 20 20">
@@ -31,7 +31,7 @@ import HeroBanner from '@/assets/banner_img.png';
                         </a>
 
                         <router-link to="/about"
-                            class="flex items-center justify-center gap-3 items-center inline-block rounded-lg bg-gray-100 px-8 py-4 
+                            class="flex items-center justify-center gap-3 whitespace-nowrap items-center inline-block rounded-lg bg-gray-100 px-8 py-4 
                         text-center text-base font-semibold text-gray-800 outline-none transition duration-100 hover:bg-gray-200">
                             <svg class="w-[20px] h-[20px] text-gray-800" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">

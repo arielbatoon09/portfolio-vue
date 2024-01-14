@@ -24,7 +24,7 @@ const pageTitle = 'Experience'
                         </p>
                         <p class="text-gray-400 text-sm mt-4">November 2022 - Present</p>
                     </div>
-                    <div class="divider-container flex flex-col items-center -mt-2">
+                    <!-- <div class="divider-container flex flex-col items-center -mt-2">
                         <div class="w-4 h-4 bg-black rounded-full relative z-10">
                             <div class="w-4 h-4 bg-black rounded-full relative z-10 animate-ping"></div>
                         </div>
@@ -39,7 +39,7 @@ const pageTitle = 'Experience'
                             before client submission, and maintain consistent communication and alignment with clients.
                         </p>
                         <p class="text-gray-400 text-sm mt-4">February 2023 - Ended</p>
-                    </div>
+                    </div> -->
 
                     <div class="divider-container flex flex-col items-center -mt-2">
                         <div class="w-4 h-4 bg-black rounded-full relative z-10">
