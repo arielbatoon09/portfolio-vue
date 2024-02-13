@@ -52,7 +52,7 @@ onMounted(() => {
                 <!-- image - start -->
                 <a href="https://expensetracker-ariel.netlify.app/"
                     class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/project-storage-d94fd.appspot.com/o/portfolio%2Fexpense-tracker.png?alt=media&token=36853b99-6dae-4f4a-97c7-8d628c09c3e0" loading="lazy" alt="Photo by Minh Pham"
+                    <img src="https://firebasestorage.googleapis.com/v0/b/project-storage-d94fd.appspot.com/o/portfolio%2Fexpense-tracker.png?alt=media&token=36853b99-6dae-4f4a-97c7-8d628c09c3e0" loading="lazy"
                         class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" 
                         />
 
@@ -68,14 +68,14 @@ onMounted(() => {
                 <!-- image - start -->
                 <a href="https://todoapp-ariel.netlify.app/"
                     class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/project-storage-d94fd.appspot.com/o/portfolio%2Ftodoapp-project-mockup.png?alt=media&token=fe3be453-65e9-49bd-8eb8-6239e1295fe3" loading="lazy" alt="Photo by Magicle"
+                    <img src="https://firebasestorage.googleapis.com/v0/b/project-storage-d94fd.appspot.com/o/portfolio%2Fiphone-x-mockup.png?alt=media&token=54c17648-d149-4fcb-9e6c-36471711f85e" loading="lazy"
                         class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                     <div
                         class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                     </div>
 
-                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">02. Simple ToDo Application</span>
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">02. Swapifine - A Marketplace</span>
                 </a>
                 <!-- image - end -->
 
@@ -83,7 +83,7 @@ onMounted(() => {
                 <!-- image - start -->
                 <a href="https://westislanddigital.com/"
                     class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/project-storage-d94fd.appspot.com/o/portfolio%2Fwest-island-digital-project.png?alt=media&token=93c91612-20d6-4be1-b4bd-551fc4aee936" loading="lazy" alt="Photo by Martin Sanchez"
+                    <img src="https://firebasestorage.googleapis.com/v0/b/project-storage-d94fd.appspot.com/o/portfolio%2Fwest-island-digital-project.png?alt=media&token=93c91612-20d6-4be1-b4bd-551fc4aee936" loading="lazy"
                         class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                     <div
@@ -98,7 +98,7 @@ onMounted(() => {
                 <!-- image - start -->
                 <a href="https://solafinance.com.au/"
                     class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/project-storage-d94fd.appspot.com/o/portfolio%2Fmodern-laptop-mockup-with-airpods.png?alt=media&token=61f8be7c-222f-4ff3-9f21-e4681202f249" loading="lazy" alt="Photo by Lorenzo Herrera"
+                    <img src="https://firebasestorage.googleapis.com/v0/b/project-storage-d94fd.appspot.com/o/portfolio%2Fmodern-laptop-mockup-with-airpods.png?alt=media&token=61f8be7c-222f-4ff3-9f21-e4681202f249" loading="lazy"
                         class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                     <div

@@ -13,8 +13,8 @@ import HeroBanner from '@/assets/banner_img.png';
 
                 <div class="sm:text-center lg:py-12 lg:text-left xl:py-24">
 
-                    <h1 class="text-gray-800 text-4xl font-light mb-8"><span class="font-bold">GrowthOps Asia</span>
-                        Developer
+                    <h1 class="text-gray-800 text-4xl font-light mb-8"><span class="font-bold">Hi, I'm Ariel Batoon</span>
+                        <br><span class="text-3xl">Founder @ Ariel Works</span>
                     </h1>
                     <p class="text-2xl mb-8">A 22-year-old <span class="font-bold">Full-stack Web Developer</span> based in
                         Cebu, Philippines.</p>

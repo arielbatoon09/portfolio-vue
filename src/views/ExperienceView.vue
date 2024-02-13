@@ -24,7 +24,25 @@ const pageTitle = 'Experience'
                         </p>
                         <p class="text-gray-400 text-sm mt-4">November 2022 - Present</p>
                     </div>
-                    <!-- <div class="divider-container flex flex-col items-center -mt-2">
+
+                    <div class="divider-container flex flex-col items-center -mt-2">
+                        <div class="w-4 h-4 bg-black rounded-full relative z-10">
+                            <div class="w-4 h-4 bg-black rounded-full relative z-10 animate-ping"></div>
+                        </div>
+                        <div class="w-1 h-24 bg-gray-200 rounded-full -mt-2"></div>
+                    </div>
+
+                    <div class="relative border p-6 rounded-md shadow-xl bg-white z-10">
+                        <h1 class="font-semibold text-xl">Founder & Developer</h1>
+                        <p class="text-gray-500">Ariel Works</p>
+                        <p class="text-gray-600 my-4">
+                            Partnering with individuals or businesses and bringing their identity into the digital world.
+                            
+                        </p>
+                        <p class="text-gray-400 text-sm mt-4">February 2024 - Present</p>
+                    </div>
+
+                    <div class="divider-container flex flex-col items-center -mt-2">
                         <div class="w-4 h-4 bg-black rounded-full relative z-10">
                             <div class="w-4 h-4 bg-black rounded-full relative z-10 animate-ping"></div>
                         </div>
@@ -39,7 +57,7 @@ const pageTitle = 'Experience'
                             before client submission, and maintain consistent communication and alignment with clients.
                         </p>
                         <p class="text-gray-400 text-sm mt-4">February 2023 - Ended</p>
-                    </div> -->
+                    </div>
 
                     <div class="divider-container flex flex-col items-center -mt-2">
                         <div class="w-4 h-4 bg-black rounded-full relative z-10">

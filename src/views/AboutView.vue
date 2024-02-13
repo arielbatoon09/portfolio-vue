@@ -21,11 +21,10 @@ const pageTitle = 'About'
                         <p class="text-base text-gray-700">I'm Ariel Batoon, a 22-year-old Full-stack Web Developer based in
                             Cebu, Philippines.
                             Currently employed on <b>GrowthOps Asia</b> as Full-time Web Developer.
-                            <br><br>I love building and innovating things, and I usually use Vue and Laravel to build my
-                            ideal applications.
+                            <br><br>I typically build websites, web apps, and custom systems to assist and enhance individuals or businesses in their digital presence.
                         </p>
                         <div class="mt-6 w-auto sm:w-1/2">
-                            <a href="https://drive.google.com/file/d/1N70n5sfM0dojwFOunHFnkcAQ1pSNjW8a/view?usp=sharing" class="flex items-center justify-center gap-3 whitespace-nowrap items-center rounded-lg bg-gray-900 hover:bg-gray-800 px-4 py-4 
+                            <a href="https://drive.google.com/file/d/1Ed66tF-6_olpXbfc2VOudPTUEl7kUSya/view?usp=sharing" class="flex items-center justify-center gap-3 whitespace-nowrap items-center rounded-lg bg-gray-900 hover:bg-gray-800 px-4 py-4 
                     text-center text-base font-semibold text-white outline-none transition duration-100">
                                 <svg class="w-[20px] h-[20px] text-white" aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 20">

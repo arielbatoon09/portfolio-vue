@@ -47,6 +47,18 @@
                 <span>GitHub</span>
             </div>
             <div class="p-1 flex flex-col items-center gap-2 hover:scale-105 transition duration-75 delay-75 cursor-pointer">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png" class="h-14" alt="WordPress">
+                <span>WordPress</span>
+            </div>
+            <div class="p-1 flex flex-col items-center gap-2 hover:scale-105 transition duration-75 delay-75 cursor-pointer">
+                <img src="https://elementor.com/marketing/wp-content/uploads/2021/10/Elementor-Logo-Symbol-Red.png" class="h-14" alt="Elementor">
+                <span>Elementor/Pro</span>
+            </div>
+            <div class="p-1 flex flex-col items-center gap-2 hover:scale-105 transition duration-75 delay-75 cursor-pointer">
+                <img src="https://www.essentialplugin.com/wp-content/uploads/2022/08/Divi-Theme-Logo.png" class="h-14" alt="Divi">
+                <span>Divi</span>
+            </div>
+            <div class="p-1 flex flex-col items-center gap-2 hover:scale-105 transition duration-75 delay-75 cursor-pointer">
                 <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/atlassian_jira_logo_icon_170511.png" class="h-14" alt="Jira">
                 <span>Jira</span>
             </div>
